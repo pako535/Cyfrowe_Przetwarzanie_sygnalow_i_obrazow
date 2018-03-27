@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 import imghdr
 
-path = "../standard_test_images/jetplane.tif"
+path = "../standard_test_images/ryze.png"
 img = cv2.imread(path)
 hist = cv2.calcHist([img], [0], None, [256], [0, 256])
 
